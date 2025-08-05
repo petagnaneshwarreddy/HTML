@@ -1,0 +1,132 @@
+h1{
+    color:rgb(19, 93, 35)
+    
+}
+h2{
+    color: rgb(170, 44, 137);
+    margin-top: 20px;
+}
+h3{
+    color: rgb(234, 70, 20);
+    margin-top: 10px;
+}
+h4{
+    color: rgb(141, 125, 10);
+    margin-top: 5px;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e8e6c3;
+}
+
+nav {
+    background-color: #e8eb5e99;
+    padding: 20px 0;
+    text-align: center;
+    animation: slideDown 1s ease-in-out;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(29, 58, 117);
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a i {
+    margin-right: 8px;
+    color: #16c9c9;
+}
+
+.navbar a:hover {
+    color: #081c26;
+    transform: scale(1.1);
+}
+form
+{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a8dfe9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+}
+/* @keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #60f379, #99f2c8);
+    animation: backgroundMove 10s infinite alternate;
+    color: rgb(238, 101, 17);
+}
+
+@keyframes backgroundMove {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar li a:hove
+r {
+    color: #4FC3F7;
+    transform: scale(1.1);
+} */
