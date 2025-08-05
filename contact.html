@@ -25,18 +25,28 @@
         <hr>
         <center>
         <h2>Connect with Me</h2>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
-            
-            <input type="submit" value="Send Message">
-        </form>
+        <form id="contactForm">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+  <button type="submit">Send Message</button>
+    <button type="reset">Reset</button>
+</form>
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                alert('Thank you for your message!');
+                document.getElementById('contactForm').reset();  
+            });
+
+        </script>
+</form>
         </center>
         <center>&copy; 2025 Peta Gnaneshwar Reddy</center>
 </html>
