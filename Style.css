@@ -35,3 +35,29 @@
             text-decoration: underline;
         }
      */
+    
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: right;
+    animation: slideDown 1s ease-in-out;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
